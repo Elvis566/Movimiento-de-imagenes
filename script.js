@@ -6,6 +6,8 @@ function sig(){
     c++;
     if(c<=4){
         imagen.src= foto[c];   
+    }else{
+        c--;
     }
     
 }
@@ -14,5 +16,7 @@ function ant(){
     c--
     if(c>=0){
     imagen.src= foto[c];
+    }else{
+        c++;
     }
 }
