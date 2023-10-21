@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    place-items: center;
+}
+
+#contenedor{
+    margin-top: 100px;
+}
+
+#foto{
+   width: 230px;
+   height: 300px;
+}
+

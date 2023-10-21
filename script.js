@@ -4,7 +4,7 @@ let c=0;
 function sig(){
   
     c++;
-    if(c<=4){
+    if(c<=foto.length-1){
         imagen.src= foto[c];   
     }else{
         c--;
