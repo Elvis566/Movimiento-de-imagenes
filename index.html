@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagenes en movimiento</title>
+    <style>
+        #contenedor{
+            position: relative;
+            left: 340px;
+            padding: 270px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="contenedor">
+        <div>
+            <img src="img/foto0.jpg" alt="" id="foto" width="230" >
+        </div>
+        <div>
+            <button id="siguiente" onclick="sig()">
+                <img src="img/sig.png" alt="" width="100px">
+            </button>
+            <button id="anterior" onclick="ant()">
+                <img src="img/ant.png" alt=""width="100px" >
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

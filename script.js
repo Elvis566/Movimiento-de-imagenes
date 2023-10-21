@@ -1,0 +1,18 @@
+var foto =["img/foto0.jpg","img/foto1.jpg","img/foto2.jpg","img/foto3.jpg","img/foto4.jpg"];
+var imagen = document.getElementById("foto");
+let c=0;
+function sig(){
+  
+    c++;
+    if(c<=4){
+        imagen.src= foto[c];   
+    }
+    
+}
+
+function ant(){
+    c--
+    if(c>=0){
+    imagen.src= foto[c];
+    }
+}
