@@ -7,7 +7,8 @@ function sig(){
     if(c<=foto.length-1){
         imagen.src= foto[c];   
     }else{
-        c--;
+        c=0;
+        imagen.src= foto[c];  ;
     }
     
 }
@@ -17,6 +18,7 @@ function ant(){
     if(c>=0){
     imagen.src= foto[c];
     }else{
-        c++;
+        c=foto.length-1;
+        imagen.src= foto[c];
     }
 }
